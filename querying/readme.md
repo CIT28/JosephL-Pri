@@ -11,3 +11,5 @@
     1. Sql is a coding langue that uses databases. That is what i assumes it is.My understanding is it a very simple language.
 
     2.But it actually does more than that. It can create ,read and update data in a data base. This doesnt feel very simple anymore. 
+
+### Query and SQLite
