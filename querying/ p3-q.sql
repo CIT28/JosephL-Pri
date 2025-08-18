@@ -6,16 +6,12 @@
 .output '| cat >> pow3.txt'
   
 -- updates the pow.txt with content in single quotes
-.print 'Second query'  
+.print 'Third query'  
   
 -- SQL command (query) to view all the column contents in the longlist table   
 -- Copy your SQL command below here
-SELECT "title", "author" FROM "longlist" WHERE "year" = 2023;
-SELECT "title", "author" FROM "longlist" WHERE "year" = 2022;
-SELECT "title", "author" FROM "longlist" WHERE "year" = 2021;
-  Select "title", "format" FROM "longlist" WHERE "format" != 'hardcover';
-  Select "title", "format" FROM "longlist" WHERE "format" <> 'hardcover';
-   Select "title", "format" FROM "longlist" WHERE NOT "format" = 'hardcover';
+ SELECT "title", "author" FROM "longlist" WHERE "year"= 2022 OR "year" = 2023;
+SELECT "title", "format" FROM "longlist" WHERE ( "year" = 2022 OR "year" = 2023) AND "format" != 'hardcover' ;
 
 -- After each commit comment out the queries written and then continue to write your queries in this part of the file
 
