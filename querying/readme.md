@@ -14,3 +14,9 @@
 
 ### Query and SQLite
 ##"Week 2 Querying Part 2", then commit with message: Setup ready
+##questions and style"
+### Im still conbfused on git and how my commits arent showing up.I do not really understand it and im having a hard time understanding you explain it. 
+
+# Week 2 Querying Part 3
+query file and README.md ready
+"WHERE, operators, NOT":
