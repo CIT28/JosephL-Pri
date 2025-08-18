@@ -13,3 +13,4 @@
     2.But it actually does more than that. It can create ,read and update data in a data base. This doesnt feel very simple anymore. 
 
 ### Query and SQLite
+##"Week 2 Querying Part 2", then commit with message: Setup ready
