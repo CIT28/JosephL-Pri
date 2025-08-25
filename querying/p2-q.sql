@@ -19,4 +19,4 @@ SELECT "title" FROM "longlist" LIMIT 10;
 -- changes back to stdout    
 .output stdout  
 
--- bash command sqlite3 longlist.db < p2-q.sql
+-- bash command sqlite3 longlist.db < w3-q.sql
