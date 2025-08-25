@@ -1,0 +1,35 @@
+Books less then 200 pages 
+┌───────────────────────────────────────┐
+│                 title                 │
+├───────────────────────────────────────┤
+│ Boulder                               │
+│ The Gospel According to the New World │
+│ Paradais                              │
+│ Heaven                                │
+│ Happy Stories, Mostly                 │
+│ Elena Knows                           │
+│ After the Sun                         │
+│ The War of the Poor                   │
+│ When We Cease to Understand the World │
+│ Wretchedness                          │
+│ At Night All Blood is Black           │
+│ Minor Detail                          │
+│ The Dangers of Smoking in Bed         │
+│ The Employees                         │
+│ The Pear Field                        │
+│ Faces on the Tip of My Tongue         │
+│ At Dusk                               │
+│ Four Soldiers                         │
+│ Jokes for the Gunmen                  │
+│ The Death of Murat Idrissi            │
+│ The Pine Islands                      │
+│ The Remainder                         │
+│ The Dinner Guest                      │
+│ The White Book                        │
+│ Die, My Love                          │
+└───────────────────────────────────────┘
+┌─────────────────────┐
+│ books less then 200 │
+├─────────────────────┤
+│ 25                  │
+└─────────────────────┘
