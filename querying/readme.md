@@ -23,3 +23,6 @@ query file and README.md ready
 #"Week 3 Querying Part 4"
 ### operators are not new to me my other CS clas is currently taklikf about them. And it seems that all the symbol do thsame caommand. But how you use them give you diffrent out put. Im starting to feel a bit more confindent in my skills. But i still require more practice. 
     ##ORDER BY
+    
+# "My Thoughts"
+### If Im honest, I was struggling at the beginning but I feel better having re-watched some videos and redoing the code alongs. This lesson was a bit easier for me. I didnt feel as lost as I did before. I know my skills have a long way to go. But Im starting to feel more confindent about what Im doing and what each commands does. This code along felt like evrything we were learning coming together. 
