@@ -21,4 +21,5 @@
 query file and README.md ready
 
 #"Week 3 Querying Part 4"
-    ##
+### operators are not new to me my other CS clas is currently taklikf about them. And it seems that all the symbol do thsame caommand. But how you use them give you diffrent out put. Im starting to feel a bit more confindent in my skills. But i still require more practice. 
+    ##ORDER BY

@@ -10,13 +10,12 @@
   
 -- SQL command (query) to view all the column contents in the longlist table   
 -- Copy your SQL command below here
-Select "title", "year" FROM "longlist" WHERE "year" >= 2019 AND "year" <= 2022;
-Select "title", "year" FROM "longlist" WHERE "year" >= 2019 AND "year" BETWEEN 2019 AND 2022;
-SELECT "title", "rating" FROM "longlist" WHERE "rating" > 4.0;
-SELECT "title", "rating", "votes"  FROM "longlist" WHERE "rating" > 4.0 AND "votes" > 10000;
-SELECT "title", "rating", "pages"  FROM "longlist" WHERE "pages" < 300;
- SELECT "title" FROM "longlist" WHERE "title" LIKE 'pyre';
- 
+SELECT "title", "rating" FROM "longlist" ORDER BY "rating" LIMIT 10;
+SELECT "title", "rating" FROM "longlist" ORDER BY "rating" DESC LIMIT 10;
+SELECT "title", "rating" FROM "longlist" ORDER BY "rating" DESC, "votes" DESC LIMIT 10;
+SELECT "title", "rating", "rating" FROM "longlist" ORDER BY "rating" DESC, "votes" DESC LIMIT 10;
+ SELECT "title", "rating" FROM "longlist" WHERE "rating" = 4.932;
+ SELECT "title", "rating" FROM "longlist" ORDER BY "title";
 
 -- After each commit comment out the queries written and then continue to write your queries in this part of the file
 
