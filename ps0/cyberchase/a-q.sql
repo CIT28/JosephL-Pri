@@ -6,7 +6,7 @@
 .output '| cat >> pow-a.txt'
   
 -- updates the pow.txt with content in single quotes
-.print 'Query 1 '  
+.print 'Couting results  '  
   
 -- SQL command (query) to view all the column contents in the longlist table   
 -- Copy your SQL command below here
