@@ -11,7 +11,7 @@
 -- SQL command (query) to view all the column contents in the longlist table   
 -- Copy your SQL command below here
 
-    .print 'the use of count and distinct will gives you the full value of how any value you have with out recounting repating values.'
+    
 -- After each commit comment out the queries written and then continue to write your queries in this part of the file
 
 -- changes back to stdout    
