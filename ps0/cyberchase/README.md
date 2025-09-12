@@ -99,6 +99,11 @@ SELECT COUNT(title) FROM episodes ORDER BY episode_in_season DESC LIMIT BY 10;
 ```
 ## Problem 12
 ```
+SELECT title FROM episodes WHERE topic = unique;
+SELECT DISTINCT(title) FROM episodes WHERE title LIMIT 10;
+SELECT DISTINCT(title) FROM episodes LIMIT 10;
+SELECT COUNT(DISTINCT(title)) FROM episodes LIMIT 10;
+
 ```
 ## Problem 13
 ```
