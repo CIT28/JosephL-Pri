@@ -107,4 +107,11 @@ SELECT COUNT(DISTINCT(title)) FROM episodes LIMIT 10;
 ```
 ## Problem 13
 ```
+### write a querey of the last 5 episodes and list them in desc order.
+
+SELECT title FROM episodes WHERE episodes_in_season DESC AND LIMIT 5;
+ SELECT title FROM episodes WHERE episode_in_season DESC AND LIMIT 5;
+SELECT title FROM episodes WHERE episode_in_season DESC LIMIT 5;
+SELECT title FROM episodes DESC LIMIT 5;
+
 ```
