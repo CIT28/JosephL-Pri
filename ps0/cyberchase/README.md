@@ -108,10 +108,14 @@ SELECT COUNT(DISTINCT(title)) FROM episodes LIMIT 10;
 ## Problem 13
 ```
 ### write a querey of the last 5 episodes and list them in desc order.
+###write a querey of the last season episodes between 2023 and 2024
 
 SELECT title FROM episodes WHERE episodes_in_season DESC AND LIMIT 5;
  SELECT title FROM episodes WHERE episode_in_season DESC AND LIMIT 5;
 SELECT title FROM episodes WHERE episode_in_season DESC LIMIT 5;
 SELECT title FROM episodes DESC LIMIT 5;
 
+SELECT title FROM episodes WHERE air_date BETWEEN 2023 and 2024;
+SELECT title FROM episodes WHERE air_date BETWEEN 2023-01-01 AND 2024-12-31;
+SELECT title FROM episodes WHERE air_date BETWEEN '2023-01-01' AND '2024-12-31';
 ```
