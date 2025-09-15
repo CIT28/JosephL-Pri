@@ -1,21 +1,13 @@
--- starting the pow workflow
--- changes terminal output for readability 
 .mode box
-  
--- changes terminal output from standard output (stdout) to pow.txt file
-.output '| cat >> pow-ds.txt'
-  
--- updates the pow.txt with content in single quotes
-.print 'first query'  
-  
--- SQL command (query) to view all the column contents in the longlist table   
--- Copy your SQL command below here
-
-
-  
--- After each commit comment out the queries written and then continue to write your queries in this part of the file
-
--- changes back to stdout    
+.output '| cat >> pow-a.txt'
+-- Queries below here 
+.print '<---->'
+--.tables
+--.schema
+SELECT * FROM "authors" LIMIT 10;
+SELECT * FROM "books" LIMIT 10;
+SELECT * FROM "authored" LIMIT 10;
+.print '<---->'
+-- Queries end here
 .output stdout  
-
--- bash command sqlite3 longlist.db < wa-q.sql
+-- bash command sqlite3 longlist.db < a-q.sql
