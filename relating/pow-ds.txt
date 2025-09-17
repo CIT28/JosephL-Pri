@@ -150,3 +150,5 @@ CREATE TABLE IF NOT EXISTS "translated" (
 │ 60        │ 10      │
 └───────────┴─────────┘
 <---->
+first query
+first query

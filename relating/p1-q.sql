@@ -3,7 +3,7 @@
 .mode box
   
 -- changes terminal output from standard output (stdout) to pow.txt file
-.output '| cat >> pow-ds.txt'
+.output '| cat >> pow-p1.txt'
   
 -- updates the pow.txt with content in single quotes
 .print 'first query'  
@@ -18,4 +18,4 @@
 -- changes back to stdout    
 .output stdout  
 
--- bash command sqlite3 longlist.db < wa-q.sql
+-- bash command sqlite3 longlist.db < p1-q.sql
