@@ -4,6 +4,8 @@
 ## 'Overview of Relating Concepts'
 ### "Relating"
 ```
+Relating is establisng connections between diffrent tables. Creating relationships between the tables. 
+
 ```
 ### "Enity Relationship Diagrams (ERD)"
 ```
