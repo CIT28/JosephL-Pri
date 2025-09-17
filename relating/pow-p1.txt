@@ -3,3 +3,96 @@
 
 what does this query to
 what does this query to
+what does this query to
+what does this query to
+what does this query to  
+┌────┐
+│ id │
+├────┤
+│ 12 │
+└────┘
+what does this query to 
+what does this query to  
+┌────┐
+│ id │
+├────┤
+│ 12 │
+└────┘
+what does this query to  
+┌────┐
+│ id │
+├────┤
+│ 12 │
+└────┘
+what does this query to 
+┌───────────────────────────┐
+│           title           │
+├───────────────────────────┤
+│ Standing Heavy            │
+│ Jimi Hendrix Live in Lviv │
+│ An Inventory of Losses    │
+│ The Faculty of Dreams     │
+│ The Shape of the Ruins    │
+│ The Impostor              │
+│ Vernon Subutex 1          │
+└───────────────────────────┘
+what does this query to  
+┌────┐
+│ id │
+├────┤
+│ 12 │
+└────┘
+what does this query to 
+┌───────────────────────────┐
+│           title           │
+├───────────────────────────┤
+│ Standing Heavy            │
+│ Jimi Hendrix Live in Lviv │
+│ An Inventory of Losses    │
+│ The Faculty of Dreams     │
+│ The Shape of the Ruins    │
+│ The Impostor              │
+│ Vernon Subutex 1          │
+└───────────────────────────┘
+what does this query to
+┌───────────────────────────┐
+│           title           │
+├───────────────────────────┤
+│ Standing Heavy            │
+│ Jimi Hendrix Live in Lviv │
+│ An Inventory of Losses    │
+│ The Faculty of Dreams     │
+│ The Shape of the Ruins    │
+│ The Impostor              │
+│ Vernon Subutex 1          │
+└───────────────────────────┘
+what does this query to  
+┌────┐
+│ id │
+├────┤
+│ 12 │
+└────┘
+what does this query to 
+┌───────────────────────────┐
+│           title           │
+├───────────────────────────┤
+│ Standing Heavy            │
+│ Jimi Hendrix Live in Lviv │
+│ An Inventory of Losses    │
+│ The Faculty of Dreams     │
+│ The Shape of the Ruins    │
+│ The Impostor              │
+│ Vernon Subutex 1          │
+└───────────────────────────┘
+what does this query to
+┌───────────────────────────┐
+│           title           │
+├───────────────────────────┤
+│ Standing Heavy            │
+│ Jimi Hendrix Live in Lviv │
+│ An Inventory of Losses    │
+│ The Faculty of Dreams     │
+│ The Shape of the Ruins    │
+│ The Impostor              │
+│ Vernon Subutex 1          │
+└───────────────────────────┘
