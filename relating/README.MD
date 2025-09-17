@@ -11,4 +11,6 @@ are diagrams that use the crow foot notaion. Where in a cetain data set one piec
 ```
 ### "Keys"
 ```
+Keys is the identifier used for data. It give it a name and catogory. But there are diffrent types of keys. A primary key is a set of data that is uniquely identified in a table. Where as a foreign key can take a primary key and include it into another table. 
+```
 
