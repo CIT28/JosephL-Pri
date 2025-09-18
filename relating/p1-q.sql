@@ -26,5 +26,16 @@ SELECT AVG(rating) FROM ratings WHERE book_id = ( SELECT id FROM books WHERE tit
  the first will give you the data that the subquery ask for. But the second codenses that list in the average score. 
 .output stdout  
 
+.print 'what does this query to
+SELECT author_id FROM authored WHERE book_id = ( SELECT id FROM books WHERE title = 'Flights' );'
+This is a simple nesting of finding the book flights author id with using the books title. 
 
+.print 'what does this query to
+SELECT name FROM authors WHERE id =( SELECT author_id FROM authored WHERE book_id = ( SELECT id FROM books WHERE title = 'Flights') );'
+This query takes the answer from the previous query and used it to find the author of the book. 
+
+.print 'what does this query to
+SELECT name FROM authors WHERE ID =( SELECT author_id FROM authored WHERE book_id = (SELECT id FROM books WHERE title = 'The Birthday Party') );'
+This query using the nesting idea. to find the name of the author of the book flights. Using the books name we used sql to find it name by asking for its book id and id to find the answer.
+ 
 -- bash command sqlite3 longlist.db < p1-q.sql
