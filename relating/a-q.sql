@@ -24,15 +24,15 @@
 --     )
 -- );
 .print 'refactor to implement JOIN'
-SELECT * FROM authors
+SELECT authors.name, books.title FROM authors
 JOIN authored ON authored.author_id = authors.id
 JOIN books ON books.id = authored.book_id
-WHERE title = 'Whale';
+WHERE books.title = 'Whale';
 
-SELECT name FROM authors
-JOIN authored ON authored.book_id = books.id
-JOIN books ON books.id = authors.id
-WHERE name = 'Cheon Myeong-Kwan';
+-- SELECT name FROM authors
+-- JOIN authored ON authored.book_id = books.id
+-- JOIN books ON books.id = authors.id
+-- WHERE name = 'Cheon Myeong-Kwan';
 
 .print '<---->'
 -- Queries end here
