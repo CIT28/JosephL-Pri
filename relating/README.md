@@ -19,3 +19,9 @@ Keys is the identifier used for data. It give it a name and catogory. But there 
 ```
 it is a query within a query. The way i understood it is that it take two seprate querys and combines them to get the same data. Like in the example we wanted it to find out the author that connected to the id of 5. So we would make a subquery that first gives us the id of 5 and than uses that data to answer our next query of who is the auther of 5.  It alway the query that is the furthest inside that will begin. So we would put the query that ask what is the id of 5. 
 ``
+
+
+# 'Week 7 Relating Part 2'
+
+## 'Week 7 Attendance'
+- how can just output book titile and authors name?
