@@ -10,3 +10,9 @@ WHERE name = 'Cheon Myeong-Kwan';
 
 
 ## 'JOIN'
+Join is used to combine multiple tables together and get a specfic data set. It uses primary keys to help connect tables. 
+
+##'Inner JOIN'
+inner join will only return colums where they match. for example if two tables have id that match with another table. 
+
+## 'LEFT, RIGHT and FULL JOIN'
