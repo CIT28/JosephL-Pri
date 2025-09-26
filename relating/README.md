@@ -35,3 +35,7 @@ We get more of a tempory table that only last as long as we have the query in us
 intersect will return the one thing that both tables have in common. 
 Union takes a set of tables and combines them. 
 Except will only return what you ask for for example the longlist .db you could return a list that names only the aithors and none of the translator. This would even exclude authors that are translators as well. 
+
+## 'Groups'
+Groups are used to find answers to set in tables. say you want to find the rating of your favorite movie. A group by will make a set of data of thiose revies and if you use the correct set of keys you can find the average, sum and which movies got the nmost reviews
+The use iof the key word having can help you find a certain set of answer you were looking for .Like if you wanted reviews with more than five starts .It woudl say HAVING "average rating" > 5.0 . 

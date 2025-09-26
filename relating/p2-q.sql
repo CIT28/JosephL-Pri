@@ -24,16 +24,24 @@
 -- SELECT * FROM sea_lions NATURAL JOIN migrations;
 -- .output stdout  
 
-SELECT name FROM translators;
-SELECT name from authors;
-SELECT name from translators UNION SELECT name FROM authors;
-SELECT 'author' as profession, name FROM authors;
-SELECT 'author' AS profession, name FROM authors UNION SELECT 'translator' AS profession, name FROM translators;
-SELECT name FROM authors INTERSECT SELECT name FROM translators;
-SELECT name FROM authors INTERSECT SELECT name FROM translators;
-SELECT book_id FROM translated WHERE translator_id = (SELECT id FROM translators WHERE name = 'Sophie Hughes'); 
-SELECT book_id FROM translated WHERE translator_id =
- ( SELECT id FROM translators WHERE name = 'Sophie Hughes') 
- INTERSECT SELECT book_id FROM translated WHERE translator_id = (SELECT id FROM translators WHERE name = 'Margaret Jull Costa');
+-- SELECT name FROM translators;
+-- SELECT name from authors;
+-- SELECT name from translators UNION SELECT name FROM authors;
+-- SELECT 'author' as profession, name FROM authors;
+-- SELECT 'author' AS profession, name FROM authors UNION SELECT 'translator' AS profession, name FROM translators;
+-- SELECT name FROM authors INTERSECT SELECT name FROM translators;
+-- SELECT name FROM authors INTERSECT SELECT name FROM translators;
+-- SELECT book_id FROM translated WHERE translator_id = (SELECT id FROM translators WHERE name = 'Sophie Hughes'); 
+-- SELECT book_id FROM translated WHERE translator_id =
+--  ( SELECT id FROM translators WHERE name = 'Sophie Hughes') 
+--  INTERSECT SELECT book_id FROM translated WHERE translator_id = (SELECT id FROM translators WHERE name = 'Margaret Jull Costa');
+
+
+SELECT AVG(rating) FROM ratings;
+SELECT book_id, AVG(rating) AS 'average rating' FROM ratings GROUP BY book_id;
+SELECT book_id, ROUND(AVG(rating), 2) AS "average rating" FROM ratings GROUP BY book_id HAVING "average rating" > 4.0;
+SELECT book_id, COUNT(rating) FROM ratings GROUP BY book_id;
+SELECT book_id, ROUND(AVG(rating), 2) AS "average rating" FROM ratings GROUP BY book_id HAVING "average rating" > 4.0 ORDER BY "average rating" DESC;
+
 
 -- bash command sqlite3 longlist.db < p2-q.sql
