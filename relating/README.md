@@ -30,3 +30,8 @@ the table that comes first before your join command.
 
 do we get back a separate table?
 We get more of a tempory table that only last as long as we have the query in use. 
+
+## 'Sets'
+intersect will return the one thing that both tables have in common. 
+Union takes a set of tables and combines them. 
+Except will only return what you ask for for example the longlist .db you could return a list that names only the aithors and none of the translator. This would even exclude authors that are translators as well. 

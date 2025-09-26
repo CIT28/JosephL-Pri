@@ -17,14 +17,23 @@
 -- .print 'What does this query do? It brings everything from the left side of the table.'
 -- SELECT * FROM sea_lions LEFT JOIN migrations ON migrations.id = sea_lions.id;
 
-.print 'What does this query do? It combines both tables including the nulls'
-SELECT * FROM sea_lions FULL JOIN migrations on migrations.id = sea_lions.id;
+-- .print 'What does this query do? It combines both tables including the nulls'
+-- SELECT * FROM sea_lions FULL JOIN migrations on migrations.id = sea_lions.id;
 
-.print 'What does this query do?The natural join cleans up the table.It gets rid of any repeating rows'
-SELECT * FROM sea_lions NATURAL JOIN migrations;
-.output stdout  
+-- .print 'What does this query do?The natural join cleans up the table.It gets rid of any repeating rows'
+-- SELECT * FROM sea_lions NATURAL JOIN migrations;
+-- .output stdout  
 
+SELECT name FROM translators;
+SELECT name from authors;
+SELECT name from translators UNION SELECT name FROM authors;
+SELECT 'author' as profession, name FROM authors;
+SELECT 'author' AS profession, name FROM authors UNION SELECT 'translator' AS profession, name FROM translators;
+SELECT name FROM authors INTERSECT SELECT name FROM translators;
+SELECT name FROM authors INTERSECT SELECT name FROM translators;
+SELECT book_id FROM translated WHERE translator_id = (SELECT id FROM translators WHERE name = 'Sophie Hughes'); 
+SELECT book_id FROM translated WHERE translator_id =
+ ( SELECT id FROM translators WHERE name = 'Sophie Hughes') 
+ INTERSECT SELECT book_id FROM translated WHERE translator_id = (SELECT id FROM translators WHERE name = 'Margaret Jull Costa');
 
-
-
--- bash command sqlite3 sea_lions.db < p2-q.sql
+-- bash command sqlite3 longlist.db < p2-q.sql
