@@ -2,16 +2,16 @@
 
 ## "Problem 1"
 ``SELECT name FROM driver WHERE name = 'Derek';``
-```SELECT * FROM drivers WHERE name = 'Derek';``` -->
+```SELECT * FROM drivers WHERE name = 'Derek';```
 ## "Problem 2"
  ```SELECT * FROM scans LIMIT 10;```
 ```SELECT * FROM drivers WHERE driver_id = 7;```
 ```SELECT COUNT("driver id") AS 'Derek Pick Count' FROM scans WHERE driver_id = 7;```
 ```SELECT COUNT("driver_id") AS 'Derek Pick Count' FROM scans WHERE driver_id = 7;```
 ```SELECT COUNT("driver_id") AS 'Derek Pick Count' FROM scans WHERE driver_id = 7 ,timestamp= %2023%;```
-```SELECT COUNT("driver_id") AS 'Derek Pick Count' FROM scans WHERE driver_id = 7 AND timestamp= %
-2023%;```
-```SELECT COUNT("driver_id") AS 'Derek Pick Count' FROM scans WHERE driver_id = 7 AND timestamp= '%2023%';``` -->
+``SELECT COUNT("driver_id") AS 'Derek Pick Count' FROM scans WHERE driver_id = 7 AND timestamp= %
+2023%;``
+```SELECT COUNT("driver_id") AS 'Derek Pick Count' FROM scans WHERE driver_id = 7 AND timestamp= '%2023%';```
 
 ## "Problem 3"
 ```SELECT COUNT(address) AS "Residentil address" FROM addresses WHERE type = 'Residentialo';``` 
@@ -22,3 +22,8 @@
 ```SELECT COUNT(address) AS "Business address count" FROM addresses WHERE type = 'Business';```
 
 ## "Problem 5"
+``SELECT COUNT(from_address_id) AS 'Number of' , contents FROM packages;``
+```SELECT contents,  COUNT(from_address_id) AS 'Number of' FROM packages;``
+``SELECT COUNT(from_address_id), contents  AS 'Number of' FROM packages;``
+```SELECT COUNT(from_address_id) AS 'Number of', contents FROM packages;``
+``SELECT COUNT(to_address_id) AS 'Number of', contents FROM packages;``
