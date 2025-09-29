@@ -1,0 +1,85 @@
+┌────┬───────────────────────┬─────────────┬──────┬─────────────────┬─────────────────┬───────────────┐
+│ id │        address        │    type     │  id  │    contents     │ from_address_id │ to_address_id │
+├────┼───────────────────────┼─────────────┼──────┼─────────────────┼─────────────────┼───────────────┤
+│ 1  │ 7660 Sharon Street    │ Residential │      │                 │                 │               │
+│ 2  │ 60 Drake Place        │ Residential │ 779  │ Trading cards   │ 2               │ 1900          │
+│ 3  │ 88 City Point Court   │ Residential │ 4710 │ Origami paper   │ 3               │ 5280          │
+│ 3  │ 88 City Point Court   │ Residential │ 8960 │ Shipping labels │ 3               │ 9255          │
+│ 4  │ 266 Dorchester Avenue │ Residential │      │                 │                 │               │
+│ 5  │ 2 Otis Place          │ Residential │ 3263 │ Envelopes       │ 5               │ 9883          │
+│ 5  │ 2 Otis Place          │ Residential │ 9910 │ Paper plates    │ 5               │ 682           │
+│ 5  │ 2 Otis Place          │ Residential │ 5086 │ Trash bags      │ 5               │ 2272          │
+│ 6  │ 154 Lowell Court      │ Residential │ 5803 │ Rollerball pen  │ 6               │ 1866          │
+│ 7  │ 9 Marlborough Street  │ Residential │ 1318 │ Egg cartons     │ 7               │ 3581          │
+└────┴───────────────────────┴─────────────┴──────┴─────────────────┴─────────────────┴───────────────┘
+┌────┬───────────────────────┬─────────────┬──────┬─────────────────┬─────────────────┬───────────────┐
+│ id │        address        │    type     │  id  │    contents     │ from_address_id │ to_address_id │
+├────┼───────────────────────┼─────────────┼──────┼─────────────────┼─────────────────┼───────────────┤
+│ 1  │ 7660 Sharon Street    │ Residential │      │                 │                 │               │
+│ 2  │ 60 Drake Place        │ Residential │ 779  │ Trading cards   │ 2               │ 1900          │
+│ 3  │ 88 City Point Court   │ Residential │ 4710 │ Origami paper   │ 3               │ 5280          │
+│ 3  │ 88 City Point Court   │ Residential │ 8960 │ Shipping labels │ 3               │ 9255          │
+│ 4  │ 266 Dorchester Avenue │ Residential │      │                 │                 │               │
+│ 5  │ 2 Otis Place          │ Residential │ 3263 │ Envelopes       │ 5               │ 9883          │
+│ 5  │ 2 Otis Place          │ Residential │ 9910 │ Paper plates    │ 5               │ 682           │
+│ 5  │ 2 Otis Place          │ Residential │ 5086 │ Trash bags      │ 5               │ 2272          │
+│ 6  │ 154 Lowell Court      │ Residential │ 5803 │ Rollerball pen  │ 6               │ 1866          │
+│ 7  │ 9 Marlborough Street  │ Residential │ 1318 │ Egg cartons     │ 7               │ 3581          │
+└────┴───────────────────────┴─────────────┴──────┴─────────────────┴─────────────────┴───────────────┘
+I wanted to use join and see  if i understood using it.
+┌────┬───────────────────────┬─────────────┐
+│ id │        address        │    type     │
+├────┼───────────────────────┼─────────────┤
+│ 1  │ 7660 Sharon Street    │ Residential │
+│ 2  │ 60 Drake Place        │ Residential │
+│ 3  │ 88 City Point Court   │ Residential │
+│ 4  │ 266 Dorchester Avenue │ Residential │
+│ 5  │ 2 Otis Place          │ Residential │
+│ 6  │ 154 Lowell Court      │ Residential │
+│ 7  │ 9 Marlborough Street  │ Residential │
+│ 8  │ 8335 Kilby Place      │ Residential │
+│ 9  │ 26 Fenway             │ Business    │
+│ 10 │ 81 Fleet Street       │ Residential │
+└────┴───────────────────────┴─────────────┘
+┌────┬───────────┐
+│ id │   name    │
+├────┼───────────┤
+│ 1  │ Matthew   │
+│ 2  │ Isabel    │
+│ 3  │ Julianna  │
+│ 4  │ Varsha    │
+│ 5  │ Jacob     │
+│ 6  │ Kamryn    │
+│ 7  │ Derek     │
+│ 8  │ Elizabeth │
+│ 9  │ Phyllis   │
+│ 10 │ Josephine │
+└────┴───────────┘
+┌────┬───────────────────┬─────────────────┬───────────────┐
+│ id │     contents      │ from_address_id │ to_address_id │
+├────┼───────────────────┼─────────────────┼───────────────┤
+│ 1  │ Sticky notes      │ 8575            │ 4635          │
+│ 2  │ Shears            │ 8431            │ 7641          │
+│ 3  │ Index cards       │ 2107            │ 3624          │
+│ 4  │ Glue stick        │ 6954            │ 3740          │
+│ 5  │ Trading cards     │ 4530            │ 5564          │
+│ 6  │ Fountain pen      │ 2308            │ 972           │
+│ 7  │ Trading cards     │ 7870            │ 7942          │
+│ 8  │ Ironing board     │ 4572            │ 8454          │
+│ 9  │ Fountain pen      │ 8399            │ 416           │
+│ 10 │ Colored cardstock │ 7325            │ 8572          │
+└────┴───────────────────┴─────────────────┴───────────────┘
+┌────┬───────────┬────────────┬────────────┬────────┬────────────────────────────┐
+│ id │ driver_id │ package_id │ address_id │ action │         timestamp          │
+├────┼───────────┼────────────┼────────────┼────────┼────────────────────────────┤
+│ 1  │ 11        │ 8502       │ 1063       │ Pick   │ 2023-07-11 15:16:05.340221 │
+│ 2  │ 8         │ 3320       │ 9551       │ Pick   │ 2023-07-11 15:19:39.359315 │
+│ 3  │ 1         │ 2879       │ 9589       │ Pick   │ 2023-07-11 15:23:47.208594 │
+│ 4  │ 20        │ 2240       │ 3464       │ Pick   │ 2023-07-11 15:28:16.920400 │
+│ 5  │ 1         │ 8664       │ 8013       │ Pick   │ 2023-07-11 15:32:42.265139 │
+│ 6  │ 9         │ 6932       │ 8082       │ Pick   │ 2023-07-11 15:35:55.724893 │
+│ 7  │ 5         │ 9033       │ 678        │ Pick   │ 2023-07-11 15:42:30.255444 │
+│ 8  │ 4         │ 1722       │ 673        │ Pick   │ 2023-07-11 15:47:40.269239 │
+│ 9  │ 18        │ 3629       │ 4065       │ Pick   │ 2023-07-11 15:54:06.711657 │
+│ 10 │ 13        │ 860        │ 8557       │ Pick   │ 2023-07-11 15:58:04.571587 │
+└────┴───────────┴────────────┴────────────┴────────┴────────────────────────────┘
