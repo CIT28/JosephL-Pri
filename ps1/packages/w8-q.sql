@@ -1,5 +1,5 @@
 .mode box
-.output '| cat >> pow-ds.txt'
+.output '| cat >> pow-a.txt'
 
 -- SELECT * FROM addresses LEFT JOIN packages ON packages.from_address_id = addresses.id;
 SELECT * FROM addresses LEFT JOIN packages ON packages.from_address_id = addresses.id LIMIT 10;
