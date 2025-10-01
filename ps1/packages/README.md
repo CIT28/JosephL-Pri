@@ -27,3 +27,7 @@
 ``SELECT COUNT(from_address_id), contents  AS 'Number of' FROM packages;``
 ```SELECT COUNT(from_address_id) AS 'Number of', contents FROM packages;``
 ``SELECT COUNT(to_address_id) AS 'Number of', contents FROM packages;``
+
+## "Static Queries for Lost Letter - Proof of Effect"
+
+SELECT action, timestamp FROM scans WHERE id = (SELECT id FROM addresses WHERE id = '432');
