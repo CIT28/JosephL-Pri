@@ -31,3 +31,13 @@
 ## "Static Queries for Lost Letter - Proof of Effect"
 
 SELECT action, timestamp FROM scans WHERE id = (SELECT id FROM addresses WHERE id = '432');
+
+
+
+
+
+
+
+\
+# "My Experience"
+I have learned that my skills fall flat. I had difficult trouble trying to figure out how to solve this. I dont understand how you can have multiple queries for this problem. I undertsand that a subquery can help you find it but I dont understand how I can make it do what I want. You have been saying for weeks that I need a better foundation. And i have been putting it off thinking i would be ok but I can see how glaring my skills are lacking.
