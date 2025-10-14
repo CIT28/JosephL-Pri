@@ -1,10 +1,28 @@
 .mode box
-.output '| cat >> pow-ds.txt'
+.output '| cat >> pow-dese.txt'
+--Queries below here
+.print "<====>"
+-- .tables
+-- .schema
+-- SELECT * FROM "districts" LIMIT 10;
+-- SELECT * FROM "graduation_rates" LIMIT 10;
+-- SELECT * FROM "staff_evaluations" LIMIT 10;
+-- SELECT * FROM "expenditures" LIMIT 10;
+--  SELECT * FROM "schools" LIMIT 10;
 
-SELECT * FROM "districts" LIMIT 10;
-SELECT * FROM "graduation_rates" LIMIT 10;
-SELECT * FROM "staff_evaluations" LIMIT 10;
-SELECT * FROM "expenditures" LIMIT 10;
-SELECT * FROM "schools" LIMIT 10;
+.print "Query 1"
+.print "find the names and cities of all public schools in"
 
--- bash command sqlite3 packages.db < dese-q.sql
+SELECT "name", "city", "type" 
+FROM "schools" 
+WHERE "type" = 'Public school';
+
+.print "Count for query 1"
+.print "count Results"
+SELECT COUNT (*) AS "Pub School COUNT" FROM 
+    (SELECT "name", "city", "type" 
+    FROM "schools"
+     WHERE "type" LIKE '%Public School%'
+);
+
+-- bash command sqlite3 dese.db < dese-q.sql
