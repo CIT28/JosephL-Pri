@@ -56,4 +56,10 @@ SELECT * FROM scans WHERE package_id = '5098';
  SELECT * FROM packages JOIN drivers ON "drivers"."id" = "packages"."id";
 SELECT * FROM drivers JOIN scans ON "scans" . "driver_id" = "drivers" . "id" WHERE driver_id = '10';
  SELECT * FROM drivers JOIN scans ON "scans" . "driver_id" = "drivers" . "id" WHERE driver_id = '10' and action = 'Pick';
+ SELECT address FROM packages WHERE from_address_id IN (SELECT address_id FROM scans WHERE   (SELECT * FROM scans WHERE driver_id = '10';
 
+
+
+
+
+ SELECT address_id FROM scans WHERE driver_id = '10' AND address_id IS NULL;
