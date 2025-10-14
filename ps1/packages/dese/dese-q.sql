@@ -17,7 +17,7 @@
 -- FROM "schools" 
 -- WHERE "type" = 'Public school';
 
-.print "Count for query 2"
+.print "Count for query 3"
 -- .print "count Results"
 -- SELECT COUNT (*) AS "Pub School COUNT" FROM 
 --     (SELECT "name", "city", "type" 
@@ -28,7 +28,8 @@
 
 -- SELECT COUNT("name") AS "Non-op Schools" FROM "districts" WHERE "name" LIKE '%(non-op)' ;
 
-
+SELECT AVG("per_pupil_expenditure") AS "Average District Per-Pupil Expenditure" 
+FROM "expenditures";
 
 -- bash command sqlite3 dese.db < dese-q.sql
 
