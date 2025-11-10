@@ -35,3 +35,12 @@ typeof storgae types in sqlite. they are
 ## "For Example"
 ''
 an example of type affinities is the use of street name. Say you get off 5th street but got on main street. Now would you use Numeric or text to classify the street name in the table. You would use text to write street names but if you used numeric it will still present the data youn input but it will not be correct ''
+
+
+# 'Designing Part 2'
+
+## 'column Constraints'
+*CHECK is used to manually check a value in the colimn.
+*DEFAULT is used to placve a default value for any new rows if no value is present.
+*NOT NULL is used to make sure there is no empty values into the column.
+*UNIQUE  everyrow is now given a unique calue and doesnt repeat. 
